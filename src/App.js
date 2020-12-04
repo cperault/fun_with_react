@@ -13,7 +13,7 @@ const App = () => {
         <Route exact path={["/", "/main", "/about"]}>
           <Main company={"iSoftians"} />
         </Route>
-        <Route path="/stuff" component={() => <Main />}>
+        <Route path="/stuff"}>
           <h1>
             This is page two
           </h1>
